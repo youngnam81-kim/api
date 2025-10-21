@@ -16,7 +16,7 @@ export default {
   
   // 로그인 기능
   login(userId, password) {
-    return axios.post(`${API_URL}/users/login`, {
+    return axios.post(`${API_URL}/login`, {
       userId,
       password
     });
